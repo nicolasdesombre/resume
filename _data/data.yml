@@ -195,6 +195,19 @@ experiences:
             - Troubleshooting technical problems and implementing solutions.
 
           Management of the workstation (on Windows XP/7 and Mac OSX), technical support at end-user, and the management of the mobile phone parc (Android and iOS device)
+      - role: Network Technician
+          time: 2010 - 2011
+          company: Armatis-LC, Boulogne-sur-mer
+          details: |
+          In charge of the administration (level 1 and 2) of the LDAP Directory and some servers such File Server/ Exchange/Call Server/Antivirus Server and Switch.
+          
+          Management and deployment of the workstation and providing technical support at end-user.
+      - role: Network Technician (Internship)
+        time: 2010 (3 Months)
+        company: Cray-Valley, Drocourt
+        details: |
+          In charge of creating a test platform, which prepare and validate the migration from Windows Server 2003/XP to Windows Server 2008R2/7.
+      
 
 projects:
     title: Certifications
