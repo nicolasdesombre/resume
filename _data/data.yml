@@ -27,7 +27,7 @@ sidebar:
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
+    pdf: #
 
     languages:
       title: Languages
@@ -196,9 +196,9 @@ experiences:
 
           Management of the workstation (on Windows XP/7 and Mac OSX), technical support at end-user, and the management of the mobile phone parc (Android and iOS device)
       - role: Network Technician
-          time: 2010 - 2011
-          company: Armatis-LC, Boulogne-sur-mer
-          details: |
+        time: 2010 - 2011
+        company: Armatis-LC, Boulogne-sur-mer
+        details: |
           In charge of the administration (level 1 and 2) of the LDAP Directory and some servers such File Server/ Exchange/Call Server/Antivirus Server and Switch.
           
           Management and deployment of the workstation and providing technical support at end-user.
