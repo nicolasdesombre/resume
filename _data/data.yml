@@ -96,29 +96,26 @@ experiences:
         details: |
           For a major account in the health sector, maintenance in operational condition on the Azure cloud perimeter.
           
-          Operational maintenance of automation and deployment tools.
+          Deployment of CI/CD pipeline for Terraform, based on Github Action.
           
           Participation in a "MoveToCloud" project, migration of all Vmware on-premise virtual machines to Azure.
           
-          Disaster recovery solution deployment based on Azure Site Recory and Site Recovery Manager
+          Disaster recovery solution deployment based on Azure Site Recory and Site Recovery Manager (for Vmware AVS)
           
           Technical environment : 
           - Azure :
             - Virtual Machine
             - Load Balancer
             - NetApp Files
-            - Vmware AVS + SRM
+            - Vmware AVS
             - KeyVault
-            - Function App
-            - Automation Account
+            - Function App & Automation Account
             - Storage Account
             - Azure Site Recovery
           - DevOps Tools :
             - GitHub
-            - CI/CD pipeline based on Github Action
             - Terraform
-            - Powershell
-            - Python
+            - Powershell, Python & Shell
             - Ansible
           - Hashicorp Vault
           - Science Logic Monitoring
@@ -224,18 +221,21 @@ skills:
 
       - name: Terraform
         level: 70%
+      
+      - name: Powershell
+        level: 70%
 
       - name: Linux
         level: 50%
 
       - name: Windows Server
-        level: 98%
-
-      - name: Active Directory
         level: 90%
 
+      - name: Active Directory
+        level: 80%
+
       - name: Vmware
-        level: 50%
+        level: 75%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
