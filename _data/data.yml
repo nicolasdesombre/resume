@@ -62,31 +62,31 @@ sidebar:
 #       penatibus et magnis dis parturient montes, nascetur ridiculus mus.
 #       Donec quam felis, ultricies nec, pellentesque eu.
 #       Second paragraph if required.
-# education:
-#     title: Education
-#     info:
-#       - degree: MSc in Computer Science
-#         university: University of London
-#         time: 2011 - 2012
-#         details: |
-#           Describe your study here lorem ipsum dolor sit amet, consectetuer
-#           adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-#           sociis natoque penatibus et magnis dis parturient montes, nascetur
-#           ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-#           pretium quis, sem.
-#             - Bullet point
-#             - Bullet point
-#       - degree: BSc in Applied Mathematics
-#         university: Bristol University
-#         time: 2007 - 2011
-#         details: |
-#           Describe your study here lorem ipsum dolor sit amet, consectetuer
-#           adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-#           sociis natoque penatibus et magnis dis parturient montes, nascetur
-#           ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-#           pretium quis, sem.
-#             - Bullet point
-#             - Bullet point
+education:
+    title: Education
+    info:
+      - degree: Professional degree in Computer and Software Security
+        university: Lens University Institute of Technology
+        time: 2009 - 2010
+        # details: |
+        #   Describe your study here lorem ipsum dolor sit amet, consectetuer
+        #   adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        #   sociis natoque penatibus et magnis dis parturient montes, nascetur
+        #   ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        #   pretium quis, sem.
+        #     - Bullet point
+        #     - Bullet point
+      - degree: Two-year technical degree in Network and Telecom
+        university: Béthune University Institute of Technology
+        time: 2007 - 2009
+        # details: |
+        #   Describe your study here lorem ipsum dolor sit amet, consectetuer
+        #   adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        #   sociis natoque penatibus et magnis dis parturient montes, nascetur
+        #   ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        #   pretium quis, sem.
+        #     - Bullet point
+        #     - Bullet point
 experiences:
     title: Experiences
     info:
@@ -119,38 +119,96 @@ experiences:
             - Ansible
           - Hashicorp Vault
           - Science Logic Monitoring
-#       - role: Senior Software Engineer
-#         time: 2014 - 2015
-#         company: Google, London
-#         details: |
-#           Describe your role here lorem ipsum dolor sit amet, consectetuer
-#           adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-#           Cum sociis natoque penatibus et magnis dis parturient montes,
-#           nascetur ridiculus mus. Donec quam felis, ultricies nec,
-#           pellentesque eu, pretium quis, sem.
-#             - Bullet point
-#             - Bullet point
-#       - role: UI Developer
-#         time: 2012 - 2014
-#         company: Amazon, London
-#         details: |
-#           Describe your role here lorem ipsum dolor sit amet, consectetuer
-#           adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-#           Cum sociis natoque penatibus et magnis dis parturient montes,
-#           nascetur ridiculus mus. Donec quam felis, ultricies nec,
-#           pellentesque eu, pretium quis, sem.
-#             - Bullet point
-#             - Bullet point
-# projects:
-#     title: Projects
-#     intro: >
-#       You can list your side projects in this
-#       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-#       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-#     assignments:
-#       - title: Velocity
-#         link: "#hook"
-#         tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - role: System and Network Administrator
+        time: 2019 - 2011
+        company: Claranet, Lille
+        details: |
+          Within the E-Health team, in charge of keep in good working/running order, the business unit's customer infrastructure, on OnPremise (Nutanix VMware) or cloud (AWS/Azure) hosting in HDS area.
+          
+          Centreon 2.7 to 19.10 migration
+          
+          Active Directory 2008R2 to 2016 migration
+
+          Technical environment :
+            - Windows Server 2008/2012/2016
+              - IIS
+              - Active Directory
+              - SQL Server
+              - Failover cluster
+            - Linux (Cent OS 7, Ubuntu 18.04 & Debian 10) :
+              - Apache 2, Nginx, Tomcat
+              - MySQL/MariaDB, PostgreSQL
+              - Docker
+              - Pacemaker
+            - Monitoring : Centreon 19.10
+            - Load-balancing: F5
+            - Networks and security : Bastion Wallix, Cisco ASA, Firewall Fortinet and Juniper.
+            - Automation : Ansible and Jenkins
+            - Scripting : Powershell, Shell and Groovy
+      - role: System and Network Administrator
+        time: 2017 - 2019
+        company: Open, Lille
+        details: |
+          For a major account, in charge of systems administration (maintain in operational condition) for:
+            - Windows Server 2003/2008/2012
+            - Debian 8 & Cent OS 6/7
+            - Active Directory
+            - OpenLDAP
+            - Hyper-V
+            - Vmware
+            - Citrix XenApp
+            - Google Apps
+          
+          Technical documentation update
+          
+          PowerShell scripting and integration into Jenkins.
+      - role: Windows and Vmware Administrator
+        time: 2016 - 2017
+        company: Synchrone Technologie, Lille
+        details: |
+          For a major account, in charge of systems administration (maintain in operational condition) on the perimeter :
+            - Active Directory,
+            - Windows Server 2003/2008/2012R2
+            - Vmware vCenter server / ESXi hypervisor.
+
+          Server migration from Windows 2003/2008 R2 to Windows 2012 R2
+          
+          Deployment and configuration of new Windows (2012R2) and Vmware (ESXi/Vcenter) servers
+          
+          Vmware server migration from ESX 5.5 to ESX 6
+      - role: System and Network Administrator
+        time: 2011 - 2016
+        company: Grand Calais Terres et Mers, Calais
+        details: |
+          In charge of the administration of the global system and network infrastructure, which includes :
+            - Active Directory
+            - Vmware vCenter / Site Recovery Manager / 
+            - Storage Array (NetApp)
+            - Windows/Linux based Server
+            - Exchange 2003
+            - Switch (HP Procurve/H3C).
+            - Security Appliance (Firewall, Antispam Relay).
+            - IPBX (Aastra A5000) in multi-site environment
+            - Antivirus solution (Trend)
+            - WDS Server and imaging of workstation
+            - Backups in multiple locations.
+            - Troubleshooting technical problems and implementing solutions.
+
+          Management of the workstation (on Windows XP/7 and Mac OSX), technical support at end-user, and the management of the mobile phone parc (Android and iOS device)
+
+projects:
+    title: Certifications
+    # intro: >
+    #   You can list your side projects in this
+    #   section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    #   Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    assignments:
+      - title: AWS Certified Cloud Practitionner
+        link: "https://www.credly.com/badges/bd1dc95a-c8ab-4389-959b-96c18ed94fea/public_url"
+        tagline: "Issued on may 2022, validity until May 2025."
+      - title: Microsoft Certified Azure Administrator Associate 
+        link: "https://www.credly.com/badges/7878efc2-3415-4bf2-ba48-9e1c60e4981e/public_url"
+        tagline: "Issued on June 2021, validity until June 2023."
 
 #       - title: DevStudio
 #         link: "#"
@@ -226,6 +284,9 @@ skills:
         level: 70%
 
       - name: Linux
+        level: 50%
+
+      - name: Docker
         level: 50%
 
       - name: Windows Server
