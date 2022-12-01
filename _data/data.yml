@@ -216,12 +216,15 @@ projects:
     #   section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
     #   Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
     assignments:
+      - title: Terraform: Certified HashiCorp Implementation Partner (CHIP)
+        link: "https://www.credly.com/badges/49ed7db7-ae65-4422-b132-df2ce974ad0c/public_url"
+        tagline: "Issued on December 2022, expires on December 2024."
       - title: AWS Certified Cloud Practitionner
         link: "https://www.credly.com/badges/bd1dc95a-c8ab-4389-959b-96c18ed94fea/public_url"
-        tagline: "Issued on may 2022, validity until May 2025."
+        tagline: "Issued on May 2022, expires on May 2025."
       - title: Microsoft Certified Azure Administrator Associate 
         link: "https://www.credly.com/badges/7878efc2-3415-4bf2-ba48-9e1c60e4981e/public_url"
-        tagline: "Issued on June 2021, validity until June 2023."
+        tagline: "Issued on June 2021, expires on June 2023."
 
 #       - title: DevStudio
 #         link: "#"
