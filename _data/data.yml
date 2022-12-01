@@ -216,7 +216,7 @@ projects:
     #   section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
     #   Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
     assignments:
-      - title: Terraform: Certified HashiCorp Implementation Partner (CHIP)
+      - title: Terraform Certified HashiCorp Implementation Partner (CHIP)
         link: "https://www.credly.com/badges/49ed7db7-ae65-4422-b132-df2ce974ad0c/public_url"
         tagline: "Issued on December 2022, expires on December 2024."
       - title: AWS Certified Cloud Practitionner
