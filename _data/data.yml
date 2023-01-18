@@ -94,13 +94,13 @@ experiences:
         time: 2021 - Present
         company: Kyndryl, Lille
         details: |
-          For a major account in the health sector, maintenance in operational condition on the Azure cloud perimeter.
+          For a major account in the health sector, "MoveToCloud" project, migration of all Vmware on-premise virtual machines to Azure.
           
-          Deployment of CI/CD pipeline for Terraform, based on Github Action.
+          Maintenance in operational condition on the Azure cloud perimeter.
           
-          Participation in a "MoveToCloud" project, migration of all Vmware on-premise virtual machines to Azure.
+          Deployment of CI/CD pipeline for Terraform/Terragrunt, based on Github Action workflow.
           
-          Disaster recovery solution deployment based on Azure Site Recory and Site Recovery Manager (for Vmware AVS)
+          Disaster recovery solution deployment based on Azure Site Recovery and Site Recovery Manager (for Vmware AVS)
           
           Technical environment : 
           - Azure :
