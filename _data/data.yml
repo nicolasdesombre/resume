@@ -96,19 +96,19 @@ experiences:
         details: |
           As part of Ouidou's infrastructure team and on consulting job for a wide variety of customers.
           - For a customer in the online gaming sector, implementation of an autoscaling solution for an application composed of around 10 microservices (Ruby) on an existing Kubernetes Azure AKS platform.
-          - For a customer in the ski resort sector, migration of an application consisting of around 100 microservices (Java) from Docker Swarm to Kubernetes.
+          - For a customer in the ski resort sector, migration of a booking application, consisting of around 100 microservices (Java) from Docker Swarm to Kubernetes.
             - Build AWS EKS platform
             - Helm chart development
-            - Setting up Argo CD
-            - Implementation of an auto-scaling solution with Keda and Karpenter
+            - Hashicorp Vault deployment
+            - Setting up Argo CD and Argo CD Vault plugins
+            - Auto-scaling implementation with Keda and Karpenter
           - For a customer in the energy supply sector, migration of a Jira/Confluence environment (33.000 users) on on-premises virtual machines, to AWS and Kubernetes. 
             - Build AWS EKS platform / RDS / S3 according to Atlassian preconisation
             - Implementation of an auto-scaling solution with Keda and Karpenter
             - Setting up Jira/Confluence Datacenter Edition
             - Data migration
-            - Participation in load tests
-          - For Ouidou's customer apps hosting, design and construction of an on-premise containerized shared hosting platform.
-            - Proxmox cluster build
+          - For Ouidou's customer apps hosting, build and maintain in operationnal condition, of an on-premise containerized shared hosting platform.
+            - Virtualization with Proxmox
             - Securisation and load-balancing with Pfsense and Ha-Proxy
             - Orchestration with K3S and storage with Longhorn
 
@@ -260,7 +260,7 @@ projects:
         tagline: "Issued on May 2022, expires on May 2025."
       - title: Microsoft Certified Azure Administrator Associate 
         link: "https://www.credly.com/badges/7878efc2-3415-4bf2-ba48-9e1c60e4981e/public_url"
-        tagline: "Issued on June 2021, expires on June 2023."
+        tagline: "Issued on June 2021, expires on June 2024."
 
 #       - title: DevStudio
 #         link: "#"
@@ -323,32 +323,38 @@ skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Microsoft Azure
-        level: 80%
-
       - name: AWS
-        level: 50%
+        level: 75%
 
       - name: Terraform
         level: 70%
       
-      - name: Powershell
-        level: 70%
+      - name: Ansible
+        level: 80%
 
       - name: Linux
-        level: 50%
+        level: 90%
 
       - name: Docker
-        level: 50%
+        level: 75%
+
+      - name: Kubernetes
+        level: 75%
+      
+      - name: Vmware
+        level: 70%
+      
+      - name: Microsoft Azure
+        level: 70%
 
       - name: Windows Server
-        level: 90%
+        level: 80%
 
       - name: Active Directory
         level: 80%
 
-      - name: Vmware
-        level: 75%
+      - name: Powershell
+        level: 70%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
