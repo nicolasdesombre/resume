@@ -90,8 +90,44 @@ education:
 experiences:
     title: Experiences
     info:
+      - role: Senior DevOps Engineer
+        time: 2023 - Present
+        company: Ouidou, Lille
+        details: |
+          As part of Ouidou's infrastructure team and on consulting job for a wide variety of customers.
+          - For a customer in the online gaming sector, implementation of an autoscaling solution for an application composed of around 10 microservices (Ruby) on an existing Kubernetes Azure AKS platform.
+          - For a customer in the ski resort sector, migration of an application consisting of around 100 microservices (Java) from Docker Swarm to Kubernetes.
+            - Build AWS EKS platform
+            - Helm chart development
+            - Setting up Argo CD
+            - Implementation of an auto-scaling solution with Keda and Karpenter
+          - For a customer in the energy supply sector, migration of a Jira/Confluence environment (33.000 users) on on-premises virtual machines, to AWS and Kubernetes. 
+            - Build AWS EKS platform / RDS / S3 according to Atlassian preconisation
+            - Implementation of an auto-scaling solution with Keda and Karpenter
+            - Setting up Jira/Confluence Datacenter Edition
+            - Data migration
+            - Participation in load tests
+          - For Ouidou's customer apps hosting, design and construction of an on-premise containerized shared hosting platform.
+            - Proxmox cluster build
+            - Securisation and load-balancing with Pfsense and Ha-Proxy
+            - Orchestration with K3S and storage with Longhorn
+
+          Technical environment :
+          - Infrastructure-as-code: Ansible / Terraform
+          - Containerization
+            - Kubernetes :
+              - Rancher / RKE / K3S / Longhorn
+              - AWS EKS / Azure AKS
+            - Docker CE
+          - CI/CD: Gitlab CI / Jenkins / Azure DevOps Pipeline / Argo CD
+          - Virtualization : Proxmox 8
+          - Linux : Debian 11 & 12
+          - Public Cloud : AWS / Azure / Scaleway / OVH Cloud
+          - Security: Hashicorp Vault / Hashicorp Boundary / Pfsense / Ha-Proxy
+          - Monitoring : Prometheus / Datadog
+          - Database : PostgreSQL / MySQL
       - role: Cloud Administrator/DevOps
-        time: 2021 - Present
+        time: 2021 - 2023
         company: Kyndryl, Lille
         details: |
           For a major account in the health sector, "MoveToCloud" project, migration of all Vmware on-premise virtual machines to Azure.
